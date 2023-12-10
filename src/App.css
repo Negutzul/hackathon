@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #282c34;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.left-side {
+  flex: 1; /* Occupy half of the page length */
+  padding: 20px;
+}
+
+.right-side {
+  flex: 1; /* Occupy almost full width of the left side */
+  padding: 20px;
+  position: relative;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.box {
+  width: 30%;
+  height: 100px;
+  margin-bottom: 10px;
+}
