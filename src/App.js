@@ -51,7 +51,7 @@ const [userPosition, setUserPositions] = useState({ lat: 44.435589, lng: 26.0988
           {/* Your right side component content */}
           <div className="right-content">
             {/* Add your component content here */}
-            <RightSide/>
+            <RightSide data = {unitPositions[0]}/>
           </div>
   
           {/* Additional boxes below the right side component */}
