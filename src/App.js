@@ -7,7 +7,6 @@ import { useState } from 'react';
 function App() {
   
 const apikey = 'ftWQDHD12hXKn_33LqAOBSnbA1yD8FlLN686IxJcbpg'
-const cheiaGoogul = 'AIzaSyASvupZkXbQ9UhfrBawLGajj05PPavEfpw'
 const [userPosition, setUserPositions] = useState({ lat: 44.435589, lng: 26.098857 });
   const [unitPositions, setUnitPositions] = useState([
     {
